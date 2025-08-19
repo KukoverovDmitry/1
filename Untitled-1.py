@@ -1,0 +1,2 @@
+open("file.txt", "w")
+
