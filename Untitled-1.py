@@ -1,3 +1,4 @@
-open("file.txt", "w")
+f = open("file.txt", "a")
 
-print("Hello World" )
+print("Hello World",file=f)
+
